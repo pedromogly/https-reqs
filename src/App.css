@@ -1,24 +1,43 @@
-.App {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
 .macaco {
   border: 3px solid #3b3b3b;
   border-radius: 50%;
   width: 80%;
 }
 
+.botoes-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.w250 {
+  width: 250px;
+}
+
+.w150 {
+  width: 150px;
+}
+
+.g1 {
+  flex-grow: 1;
+}
+
+.g2 {
+  flex-grow: 2;
+}
+
 .butaum {
-  width: 200px;
   border: 3px solid;
   border-radius: 5px;
   background-color: rgb(32, 146, 108);
   color: aliceblue;
   display: flex;
+  justify-self: center;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
   height: 30px;
   transition: all 0.5s;
   text-decoration: none;
@@ -27,3 +46,8 @@
 .butaum:hover {
   background-color: rgb(65, 212, 163);
 }
+
+header {
+  background-color: #777777;
+}
+
